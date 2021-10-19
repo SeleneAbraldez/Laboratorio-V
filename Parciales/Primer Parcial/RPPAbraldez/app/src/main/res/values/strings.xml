@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RPPAbraldez</string>
+    <string name="nombre_producto">Nombre Produto</string>
+    <string name="cantidad">Cantidad: </string>
+    <string name="precio">Precio: </string>
+    <string name="editar">Editar</string>
+    <string name="nombre">Nombre del producto</string>
+    <string name="modificarTitle">Modificar</string>
+</resources>

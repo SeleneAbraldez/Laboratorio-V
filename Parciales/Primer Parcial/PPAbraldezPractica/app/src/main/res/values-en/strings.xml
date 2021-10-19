@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PPAbraldezPractica</string>
+    <string name="nombre_producto">Product Name</string>
+    <string name="cantidad">"Quantity: "</string>
+    <string name="precio">"Price: "</string>
+    <string name="hintNombre">Name of the product</string>
+    <string name="labelNombre">Enter name:</string>
+    <string name="ingrese_cantidad">Enter quantity:</string>
+    <string name="ingrese_precio">Enter price:</string>
+    <string name="editName">Edit Name Product Nº</string>
+    <string name="enterNew">Enter new name</string>
+    <string name="title">Products</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

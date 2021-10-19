@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cantidad">quantity products</string>
+    <string name="precio">price p/u</string>
+    <string name="app_name">Parcial Practice</string>
+</resources>

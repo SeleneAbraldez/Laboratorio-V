@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">clase3</string>
+    <string name="nombre_label">Ingrese su nombre</string>
+    <string name="apellido_label">Ingrese su apellido:</string>
+    <string name="dni_label">DNI:</string>
+    <string name="genero_label">Genero:</string>
+    <string name="hombre_gen">Hombre</string>
+    <string name="mujer_gen">Mujer</string>
+    <string name="otro_gen">Otro</string>
+    <string name="guardar_btn">Guardar </string>
+</resources>

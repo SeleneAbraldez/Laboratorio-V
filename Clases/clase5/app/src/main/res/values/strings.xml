@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">clase5</string>
+    <string name="opcion_1">Opcion 1</string>
+    <string name="opcion_2">Opcion 2</string>
+    <string name="opcion_3">Opcion 3</string>
+    <string name="buscar">Buscar</string>
+</resources>

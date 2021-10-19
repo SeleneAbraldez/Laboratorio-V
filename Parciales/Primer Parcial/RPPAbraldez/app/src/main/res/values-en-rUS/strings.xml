@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RPPAbraldez</string>
+    <string name="nombre_producto">Product Name</string>
+    <string name="cantidad">Quantity: </string>
+    <string name="precio">Price: </string>
+    <string name="editar">Edit</string>
+    <string name="nombre">Product Name</string>
+    <string name="modificarTitle">Edit</string>
+</resources>

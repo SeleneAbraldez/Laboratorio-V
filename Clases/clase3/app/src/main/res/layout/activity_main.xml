@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?><!--   contenedor de view, no tiene visual pero contenedor-->
+<!-- linear layour no mueve con el design, pone uno debajo del otro por el horizontal o vertical, el content es para eso -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        ></ImageView>-->
+
+    <!--    si ponemos matchh parent, empuja el boton 2 y el boton 3 fuera, agrrado hasta el final. Pero va por orden.-->
+    <!--    el layout weight utiliza del 0 a 1 el espacio DISPONIBLE Y LIBRe -->
+    <!--    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:layout_gravity="right"
+            android:layout_marginTop="35dp"
+            android:padding="30dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="Boton 1"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boton 2"></Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boton 3"></Button>-->
+
+    <!--    tableloaput es una grilla, en donde se van a ooder setear filas y columnas, peor lo que amti hace es un linear-->
+
+    <!--    nombre-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Juan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <!--    apellido-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apellido_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Perez"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--    DNI -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dni_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+        <EditText
+            android:id="@+id/dni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="33333333"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!--    genero -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/genero_label"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"></TextView>
+
+        <RadioGroup
+            android:id="@+id/genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+            <RadioButton
+                android:id="@+id/radio_hombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hombre_gen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_mujer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mujer_gen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_otro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/otro_gen"
+                android:checked="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"></RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/save"
+            android:text="@string/guardar_btn"></Button>
+    </LinearLayout>
+</LinearLayout>

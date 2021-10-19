@@ -1,0 +1,5 @@
+<resources>
+    <string name="cantidad">cantidad de productos</string>
+    <string name="precio">precio p/u</string>
+    <string name="app_name">Practica parcial</string>
+</resources>

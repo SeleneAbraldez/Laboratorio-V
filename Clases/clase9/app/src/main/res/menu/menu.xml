@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/opSearch"
+      android:title="buscador"
+        android:orderInCategory="99"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+
+    <item android:id="@+id/btnAddNewContact"
+        android:title="Agregar Contacto"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@android:drawable/btn_plus"
+        />
+    <item android:id="@+id/option3"
+        android:title="basta!"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+
+</menu>

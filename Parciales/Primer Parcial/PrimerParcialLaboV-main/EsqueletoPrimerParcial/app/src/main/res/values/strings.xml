@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practica parcial</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio">Precio</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombreProducto">Nombre del producto</string>
+</resources>

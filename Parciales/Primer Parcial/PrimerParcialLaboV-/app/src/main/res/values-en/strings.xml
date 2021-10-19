@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practise</string>
+    <string name="cantidad">Amount: </string>
+    <string name="precio">Price: </string>
+    <string name="guardar">Save</string>
+    <string name="nombre">Name: </string>
+    <string name="labelNombre">Name: </string>
+</resources>

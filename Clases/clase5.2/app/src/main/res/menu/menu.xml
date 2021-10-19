@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- showaction always muestra el boton en el actiobar en vez de en una lista debajo, ifRoom es si hay algun lugar para ponerla        -->
+    <item
+        android:id="@+id/op1"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:orderInCategory="105"
+        android:title="@string/opcion_1"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/opSearch"
+        android:orderInCategory="100"
+        android:title="@string/buscar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/op2"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="101"
+        android:title="@string/opcion_2"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/op3"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="103"
+        android:title="@string/opcion_3"
+        app:showAsAction="ifRoom"></item>
+
+
+</menu>

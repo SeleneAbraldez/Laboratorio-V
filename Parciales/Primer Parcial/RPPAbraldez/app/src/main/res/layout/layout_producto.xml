@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombreProd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/nombre_producto"
+            android:textSize="30dp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btEditar"-->
+<!--            android:layout_width="64dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableStart="@drawable/pencil"-->
+<!--            android:padding="7dp"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cantidad"
+            android:layout_marginRight="2dp"/>
+        <TextView
+            android:id="@+id/tvCantidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:text="@string/precio"
+            android:layout_marginRight="2dp"/>
+        <TextView
+            android:id="@+id/tvPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+<!--        <Button-->
+        <!--            android:id="@+id/btmenos"-->
+        <!--            android:layout_width="53dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:drawableStart="@drawable/minus"-->
+        <!--            android:textSize="25dp"></Button>-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btmas"-->
+        <!--            android:layout_width="52dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:drawableStart="@drawable/plus"-->
+        <!--            android:textSize="25dp"></Button>-->
+
+    </LinearLayout>
+
+</LinearLayout>
